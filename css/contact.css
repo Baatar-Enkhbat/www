@@ -104,3 +104,23 @@ select {
 .sp-only {
   background: url("../img/top/background-white.jpg");
 }
+
+.sp-only a {
+  text-decoration: none;
+  color: brown;
+}
+
+.sp-only p {
+  font-size: 0.8rem;
+}
+
+.sp-only textarea {
+  padding: 3px 5px;
+  width: 40%;
+}
+
+.sp-only input,
+select {
+  width: 40%;
+  padding: 3px 5px;
+}
