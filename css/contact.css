@@ -117,3 +117,7 @@ button[type="submit"]:hover {
   border: 1px dotted #444;
   margin-top: 5px;
 }
+
+.footer-menu-sp {
+  margin-top: 0;
+}
