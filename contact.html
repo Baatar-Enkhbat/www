@@ -90,72 +90,45 @@
       予約
     </div>
     <div class="pc-only">
-      <div class="container-form">
+      <div class="container">
       <h3>電話での予約</h3>
       <h2>0436-21-5778</h2>
       </div>
       <br>
-  
-      <!-- <div class="container">
-        <div class="container-time">
-          <h2 class="heading">営業時間</h2>
-          <h3 class="heading-days">月曜日-金曜日</h3>
-          <p>9:00 - 22:00 </p>
-          <p>11:00 - 13:00 (ランチ)</p>
-          <h3 class="heading-days">土日</h3>
-          <p>9:00 ~ 23:00</p>
-          <p>11:00 - 13:00 (ランチ)</p>
-          <br>
-          <hr>
-<h3>電話で予約</h3>
-          <h4 class="heading-phone">TEL: (0436) 21-5778</h4>
-        </div> -->
-
-        <div class="container-form">
-          <form action="#">
+    <section>
+        <div class="container">
+          <form
+            action="https://formspree.io/f/mknynbbq"
+            method="POST"
+          >
             <h2>メールでの予約</h2>
 
-            <div class="form-field">
-                  <p><img src="img/common/cloud.png" alt="" width="50px">　お客様の名前</p>
-                  <input type="text" placeholder="浦島　太郎">
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　ご連絡先の電話番号</p>
-              <input type="text" placeholder="000 1234 4567">
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　メール</p>
-              <input type="email" placeholder="aiueo@abc.co.jp">
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　年月日</p>
-              <input type="date">
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　ご来店希望日時</p>
-              <input type="time">
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　何人様?</p>
-              <select name="select" id="#">
-                <option value="1">1 人</option>
-                <option value="2">2 人</option>
-                <option value="3">3 人</option>
-                <option value="4">4 人</option>
-                <option value="5">5 人</option>
-                <option value="5">6 人</option>
-                <option value="5">7 人</option>
-                <option value="5+">8人　+ </option>
-              </select>
-            </div>
-            <div class="form-field">
-              <p><img src="img/common/cloud.png" alt="" width="50px">　その他ご要望</p>
-              <textarea name="text"></textarea>
-            </div>
+          
+      <div class="form-group">
+        <label for="firstName"><img src="img/common/cloud.png"> 氏名</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
 
-            <button class="btn">送信</button>
-          </form>
-        </div>
+      <div class="form-group">
+        <label for="latsName"><img src="img/common/cloud.png"> 電話番号</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email"><img src="img/common/cloud.png"> メール</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage"><img src="img/common/cloud.png"> Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">送信</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
       </div>
 
 
@@ -171,73 +144,47 @@
 -->
     <div class="sp-only">
 
-      <div class="container-form">
+      <div class="container">
         <h3>電話での予約</h3>
         <h2><a href="tel:0436-21-5778">0436-21-5778</a></h2>
         </div>
         <br>
-    
-        <!-- <div class="container">
-          <div class="container-time">
-            <h2 class="heading">営業時間</h2>
-            <h3 class="heading-days">月曜日-金曜日</h3>
-            <p>9:00 - 22:00 </p>
-            <p>11:00 - 13:00 (ランチ)</p>
-            <h3 class="heading-days">土日</h3>
-            <p>9:00 ~ 23:00</p>
-            <p>11:00 - 13:00 (ランチ)</p>
-            <br>
-            <hr>
-  <h3>電話で予約</h3>
-            <h4 class="heading-phone">TEL: (0436) 21-5778</h4>
-          </div> -->
-  
-          <div class="container-form">
-            <form action="#">
+        <section>
+          <div class="container">
+            <form
+              action="https://formspree.io/f/mknynbbq"
+              method="POST"
+            >
               <h2>メールでの予約</h2>
   
-              <div class="form-field">
-                    <p><img src="img/common/cloud.png" alt="" width="50px">　お客様の名前</p>
-                    <input type="text" placeholder="浦島　太郎">
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　ご連絡先の電話番号</p>
-                <input type="text" placeholder="000 1234 4567">
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　メール</p>
-                <input type="email" placeholder="aiueo@abc.co.jp">
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　年月日</p>
-                <input type="date">
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　ご来店希望日時</p>
-                <input type="time">
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　何人様?</p>
-                <select name="select" id="#">
-                  <option value="1">1 人</option>
-                  <option value="2">2 人</option>
-                  <option value="3">3 人</option>
-                  <option value="4">4 人</option>
-                  <option value="5">5 人</option>
-                  <option value="5">6 人</option>
-                  <option value="5">7 人</option>
-                  <option value="5+">8人　+ </option>
-                </select>
-              </div>
-              <div class="form-field">
-                <p><img src="img/common/cloud.png" alt="" width="50px">　その他ご要望</p>
-                <textarea name="text"></textarea>
-              </div>
-  
-              <button class="btn">送信</button>
-            </form>
-          </div>
+            
+        <div class="form-group">
+          <label for="firstName"><img src="img/common/cloud.png"> 氏名</label>
+          <input type="text" id="firstName" name="firstName">
         </div>
+  
+        <div class="form-group">
+          <label for="latsName"><img src="img/common/cloud.png"> 電話番号</label>
+          <input type="text" id="lastName" name="lastName">
+        </div>
+  
+        <div class="form-group">
+          <label for="email"><img src="img/common/cloud.png"> メール</label>
+          <input type="email" id="email" name="email">
+        </div>
+  
+        <div class="form-group">
+          <label for="massage"><img src="img/common/cloud.png"> Massage</label>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        </div>
+  
+        <button type="submit">送信</button>
+      </form>
+    </div>
+    <div id="status"></div>
+  </section>
+        </div>
+
       <!--
   <div class="cap2">
     オススメ
@@ -317,6 +264,7 @@
     sr.reveal('.left', { origin: 'left', distance: '50px', duration: 500, scale: 1.0, delay: 500, opacity: 0.5, });
     sr.reveal('.right', { origin: 'right', distance: '50%', duration: 500, scale: 1.0, delay: 500, opacity: 0.5, });
   </script>
+  <script src="js/contact.js"></script>
 </body>
 
 </html>
