@@ -14,6 +14,7 @@ section {
   box-shadow: 10px 10px 10px #00000010;
   border: 1px dotted #444;
   border-radius: 8px;
+  z-index: 999;
 }
 
 .form-group {
@@ -35,6 +36,7 @@ section {
   font-size: 18px;
   border: 1px dotted #444;
   margin-top: 5px;
+  z-index: 999;
 }
 
 textarea {
@@ -106,4 +108,12 @@ button[type="submit"]:hover {
 
 .footer-pc {
   margin-top: 0;
+}
+
+.sp-only .form-group input,
+.sp-only .form-group textarea {
+  padding: 5px;
+  font-size: 18px;
+  border: 1px dotted #444;
+  margin-top: 5px;
 }
