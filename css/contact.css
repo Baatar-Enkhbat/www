@@ -121,7 +121,7 @@ select {
 }
 
 .sp-only input,
-select {
+.sp-only select {
   background: rgba(0, 0, 0, 0.05);
   width: 40%;
   padding: 0;
