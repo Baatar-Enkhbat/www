@@ -1,0 +1,8 @@
+AddType application/x-httpd-php .php .html
+Options +Includes
+Options  +ExecCGI
+AddType text/html cgi
+AddHandler cgi-script cgi
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+

@@ -1,0 +1,16 @@
+AddType application/x-httpd-php .php .html
+Options +Includes
+Options  +ExecCGI
+AddType text/html cgi
+AddHandler cgi-script cgi
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+
+# access deny conf  by asto-miwata
+Order allow,deny
+allow from all
+deny from .cn
+
+deny from 20.44.106.192
+deny from .amazonaws.com
+
